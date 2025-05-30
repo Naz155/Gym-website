@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>DoBu Martial Arts - Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="Style4index.css" />
+</head>
+<body>
+
+<!-- Website Title with Logo -->
+<div class="title">
+  <div class="title-center">
+    <img src="LOGO 10.jpg" alt="DuBo Logo" class="logo" height="80px" />
+    <h1 style="font-size: 3.5rem;">DuBo Martial Arts</h1>
+  </div>
+  <div class="title-right">
+    <a href="tel:+441234567890" class="call-button">
+      <i class="fas fa-phone"></i> Call Now
+    </a>
+  </div>
+</div>
+
+
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="instructor.html">Instructors</a></li>
+    <li><a href="classes.html" aria-current="page">Classes</a></li>
+    <li><a href="pricing.html">Membership</a></li>
+    <li><a href="booking.html">Booking</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Booking Section -->
+<section class="booking">
+  <div class="container">
+    <h2>Book a Trial or Register for Membership</h2>
+    <p>Fill in your details and we’ll get back to you shortly to confirm your booking or registration.</p>
+
+    <form class="booking-form" action="thankyou.html" method="post">
+      <label for="name">Full Name</label>
+      <input type="text" id="member-name" name="member-name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="member-email" name="member-email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="class">Choose a Class</label>
+      <select id="class" name="class" required>
+        <option value="">-- Select a Class --</option>
+        <option value="Judo">Judo</option>
+        <option value="Jiu-jitsu">Jiu-jitsu</option>
+        <option value="Karate">Karate</option>
+        <option value="Muay Thai">Muay Thai</option>
+        <option value="Kids Judo">Kids Judo</option>
+        <option value="Personal practice">Personal practice</option>
+        <option value="Private Tuition">Private Tuition</option>
+      </select>
+
+      <label for="date">Preferred Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="message">Message / Notes</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </div>
+</section>
+   <!-- Join or Edit Form -->
+    <!-- Membership Form -->
+    <div class="form-wrapper">
+      <h3>Select a Membership Plan</h3>
+      <form class="membership-form">
+        <label for="plan">Choose your plan:</label>
+        <select id="plan" name="plan">
+          <optgroup label="Membership Plans">
+            <option value="basic">Basic – £25/month</option>
+            <option value="intermediate">Intermediate – £35/month</option>
+            <option value="advanced">Advanced – £45/month</option>
+            <option value="elite">Elite – £60/month</option>
+            <option value="junior">Junior – £25/month</option>
+          </optgroup>
+          <optgroup label="Specialist Courses & Fitness">
+            <option value="private">Private Tuition – £15/hour</option>
+            <option value="selfdefence">6-week Self-Defence Course – £180</option>
+            <option value="fitnessroom">Fitness Room Visit – £6</option>
+            <option value="personal">Personal Fitness Training – £35/hour</option>
+          </optgroup>
+        </select>
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Submit Request</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 DuBo Martial Arts. All rights reserved.</p>
+      <p>Contact: <a href="mailto:dubomartialarts@gmail.co.uk">dubomartialarts@gmail.co.uk</a></p>
+        <div class="social-links">
+         <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+         <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+         <a href="https://twitter.com/" target="_blank"><i class="fab fa-x-twitter"></i></a>
+         <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    
+    </div>
+  </footer>
+
+</body>
+</html>

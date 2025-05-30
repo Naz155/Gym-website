@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DoBu Martial Arts - Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="Style4index.css" />
+</head>
+<body>
+
+<!-- Website Title with Logo -->
+<div class="title">
+  <div class="title-center">
+    <img src="LOGO 10.jpg" alt="DuBo Logo" class="logo" height="80px" />
+    <h1>DuBo Martial Arts</h1>
+  </div>
+  <div class="title-right">
+    <a href="tel:+441234567890" class="call-button">
+      <i class="fas fa-phone"></i> Call Now
+    </a>
+  </div>
+</div>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="instructor.html">Instructors</a></li>
+    <li><a href="classes.html">Classes</a></li>
+    <li><a href="pricing.html" aria-current="page">Membership</a></li>
+    <li><a href="booking.html">Booking</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Pricing & Membership Section -->
+<section class="pricing-section">
+  <div class="container">
+    
+    <!-- Title -->
+    <h2>Membership & Pricing</h2>
+    <p class="center-text">
+      Choose the best plan for your needs. All memberships include access to martial arts classes and fitness facilities unless stated otherwise.
+    </p>
+
+    <!-- Membership Plans Table -->
+    <h3>Membership Plans</h3>
+    <table class="pricing-table">
+      <thead>
+        <tr>
+          <th>Plan</th>
+          <th>Details</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Basic</td>
+          <td>1 martial art – 2 sessions/week</td>
+          <td>£25/month</td>
+        </tr>
+        <tr>
+          <td>Intermediate</td>
+          <td>1 martial art – 3 sessions/week</td>
+          <td>£35/month</td>
+        </tr>
+        <tr>
+          <td>Advanced</td>
+          <td>Any 2 martial arts – 5 sessions/week</td>
+          <td>£45/month</td>
+        </tr>
+        <tr>
+          <td>Elite</td>
+          <td>Unlimited classes</td>
+          <td>£60/month</td>
+        </tr>
+        <tr>
+          <td>Junior Membership</td>
+          <td>Access to all kids’ martial arts sessions</td>
+          <td>£25/month</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Specialist Courses Table -->
+    <h3>Specialist Courses & Fitness</h3>
+    <table class="pricing-table">
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Details</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Private Tuition</td>
+          <td>1-on-1 martial arts session</td>
+          <td>£15/hour</td>
+        </tr>
+        <tr>
+          <td>Self-Defence Course</td>
+          <td>6-week beginners’ course (2×1hr/week)</td>
+          <td>£180</td>
+        </tr>
+        <tr>
+          <td>Fitness Room</td>
+          <td>Per visit</td>
+          <td>£6</td>
+        </tr>
+        <tr>
+          <td>Personal Fitness Training</td>
+          <td>1-on-1 fitness session</td>
+          <td>£35/hour</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Membership Form -->
+    <div class="form-wrapper">
+      <h3>Select a Membership Plan</h3>
+      <form class="membership-form">
+        <label for="plan">Choose your plan:</label>
+        <select id="plan" name="plan">
+          <optgroup label="Membership Plans">
+            <option value="basic">Basic – £25/month</option>
+            <option value="intermediate">Intermediate – £35/month</option>
+            <option value="advanced">Advanced – £45/month</option>
+            <option value="elite">Elite – £60/month</option>
+            <option value="junior">Junior – £25/month</option>
+          </optgroup>
+          <optgroup label="Specialist Courses & Fitness">
+            <option value="private">Private Tuition – £15/hour</option>
+            <option value="selfdefence">6-week Self-Defence Course – £180</option>
+            <option value="fitnessroom">Fitness Room Visit – £6</option>
+            <option value="personal">Personal Fitness Training – £35/hour</option>
+          </optgroup>
+        </select>
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Submit Request</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 DoBu Martial Arts. All rights reserved.</p>
+    <p>Contact: <a href="mailto:dubomartialarts@gmail.co.uk">dubomartialarts@gmail.co.uk</a></p>
+    <div class="social-links">
+      <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
